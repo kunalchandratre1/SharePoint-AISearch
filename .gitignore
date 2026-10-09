@@ -1,0 +1,8 @@
+# Ignore every local environment file, but keep the safe public template.
+.env
+.env.*
+!.env.example
+
+.venv/
+__pycache__/
+*.py[cod]
